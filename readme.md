@@ -7,7 +7,7 @@
 - Form submit error/success
 - Password show or hide
 
-![Preview]("https://raw.githubusercontent.com/asif-jalil/vanillajs-formvalidation/main/img/form-validation.gif")
+![Preview](https://raw.githubusercontent.com/asif-jalil/vanillajs-formvalidation/main/img/form-validation.gif)
 
 ## Get started with this repo
 
