@@ -3,6 +3,7 @@
 [Live Demo](https://asif-jalil.github.io/vanillajs-formvalidation/)
 
 ### Features
+- Validate with Regular Expression
 - Field Onchange error
 - Form submit error/success
 - Password show or hide
