@@ -110,7 +110,7 @@ function handleInputChange(event) {
     }
 }
 
-contactForm.addEventListener("submit", (e) => {
+contactForm.addEventListener("submit", function (e) {
     e.preventDefault();
     const { name, username, email, phone, password, cPassword, fbUrl, slug } = contactData;
 
@@ -119,7 +119,7 @@ contactForm.addEventListener("submit", (e) => {
             if (password === cPassword) {
                 console.log(contactData);
                 showAlert("success", "You have successfully submit your data. Thank you.");
-                contactForm.reset();
+                this.reset();
             } else {
                 showAlert("danger", "Password and confirm password not matched");
             }
